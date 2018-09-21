@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ServiceApplication {
 
-	@Value("${service.instance.name")
+	@Value("${service.instance.name}")
 	private String instance;
 
 	public static void main(String[] args) {
